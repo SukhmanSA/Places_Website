@@ -1,0 +1,292 @@
+.authentication__header {
+    color: white;
+    text-align: center;
+  }
+  
+  .authentication {
+    width: 90%;
+    max-width: 25rem;
+    margin: 7rem auto;
+    text-align: center;
+  }
+  
+  .authentication form {
+    margin-bottom: 1rem;
+  }
+  
+  
+.account-main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.account{
+  width: 55%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.user{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user img{
+  height: 12rem;
+  width: 12rem;
+}
+
+.user p{
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-top: -0.2rem;
+}
+
+.submit-btn{
+  font-size: 1rem;
+  margin: -1rem 0 0 0;
+  background-image: linear-gradient(to right, rgb(230, 14, 14), rgb(231, 15, 33), rgb(235, 14, 33), rgba(235, 14, 33, 0.87));
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 10rem;
+  height: 2.5rem;
+}
+
+.btn-div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.input-div{
+  margin-top: -2.2rem;
+  margin-bottom: 1.2rem;
+}
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  margin-left: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top:-0.6rem;
+  height:1.9rem;
+}
+
+.email-div{
+  display: flex;
+  align-items: center;
+  width: 55%;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.email-div h4{
+  border: 2px black solid;
+  padding: 5px;
+}
+
+.places-div{
+  margin-top: -1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  width: 48%;
+  margin-left: 2rem;
+}
+
+.places{
+  margin-top: 0rem;
+}
+.place-link{
+  text-decoration: none;
+  color: #000;
+}
+
+.delete-div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.delete-btn{
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  background-color: #ec281a;
+  color: #fff;
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.user-item__modal-content{
+  width: 30rem;
+  height: 5rem;
+  margin: 1rem 0 3rem 2rem;
+  font-size: 1.2rem;
+}
+
+.user-modal{
+  height: 20rem;
+}
+
+.error-text{
+  width: 50%;
+  font-size: 0.95rem;
+  margin: -1rem 0 2rem 1rem;
+}
+
+@media(max-width:1200px){
+
+  .email-div{
+    width: 60%;
+  }
+
+}
+
+@media(max-width:1110px){
+
+  .email-div{
+    width: 70%;
+  }
+
+}
+
+@media(max-width:1000px){
+  .email-div{
+    width: 75%;
+  }
+}
+
+@media(max-width:950px){
+
+  .email-div{
+    width: 80%;
+    margin-left: 1rem;
+  }
+
+  .places-div{
+    margin-right: 1rem;
+  }
+
+}
+
+@media(max-width:850px){
+
+  .account{
+    width: 60%;
+  }
+
+}
+
+@media(max-width:815px){
+
+  .account{
+    width: 70%;
+  }
+
+}
+
+@media(max-width:700px){
+
+  .account{
+    width: 80%;
+  }
+
+}
+
+@media(max-width:620px){
+
+  .account{
+    width: 90%;
+  }
+
+}
+
+@media(max-width:540px){
+
+  .account{
+    width: 95%;
+  }
+
+  .email-div h2{
+    font-size: 1.3rem;
+  }
+
+  .email-div h4{
+    border: 2px black solid;
+    padding: 3px;
+    font-size: 1rem;
+  }
+
+}
+
+@media(max-width:490px){
+
+  .places-div{
+    width: 85%;
+  }
+
+}
+
+@media(max-width:430px){
+
+  .email-div h2{
+    font-size: 1.25rem;
+    margin-right: 1.5rem;
+  }
+
+  .email-div{
+    margin-left: 0.5rem;
+  }
+
+  .email-div h4{
+    border: 2px black solid;
+    padding: 3px;
+    font-size: 1rem;
+  }
+
+  .places-div{
+    margin-left: 0.5rem;
+  }
+
+}
+
+@media(max-width:490px){
+
+  .places-div{
+    width: 85%;
+  }
+
+}
+
+@media(max-width:358px){
+
+  .email-div h2{
+    font-size: 1.25rem;
+    margin-right: 1rem;
+  }
+
+  .email-div{
+    margin-left: 0.5rem;
+  }
+
+  .email-div h4{
+    border: 2px black solid;
+    padding: 3px;
+    font-size: 1rem;
+  }
+
+  .places-div{
+    margin-left: 0.5rem;
+  }
+
+}
